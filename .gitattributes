@@ -1,2 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Preserve the accepted manuscript byte-for-byte (its SHA-256 is recorded in the package README)
+生成式AI高等教育复现包/paper/sustainability-4495862.tex -text
