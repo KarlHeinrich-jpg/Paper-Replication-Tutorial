@@ -1,0 +1,3 @@
+TR =~ TR1 + TR2 + TR3
+DEP =~ DEP_S1 + DEP_S2 + DEP_S3 + DEP_S4 + DEP_S5 + DEP_S6 + DEP_S7 + DEP_S8
+TR ~~ 0.85*DEP

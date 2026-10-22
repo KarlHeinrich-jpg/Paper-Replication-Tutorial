@@ -1,0 +1,55 @@
+AW =~ 1*AIL_AW1 + AIL_AW2 + AIL_AW3
+PU =~ 1*AIL_PU1 + AIL_PU2 + AIL_PU3
+CE =~ 1*AIL_CE1 + AIL_CE2 + AIL_CE3
+EJ =~ 1*AIL_EJ1 + AIL_EJ2 + AIL_EJ3
+USE =~ 1*USE1 + USE2 + USE3 + USE4 + USE5
+TR =~ 1*TR1 + TR2 + TR3
+HB =~ 1*HB1 + HB2 + HB3
+RK =~ 1*RK1 + RK2 + RK3
+CAP =~ 1*TI1 + TI2 + TI3 + TI4 + TI5 + TI6
+DEP =~ 1*DEP_T1 + DEP_T2 + DEP_T3 + DEP_T4 + DEP_T5
+AW ~~ PU
+AW ~~ CE
+AW ~~ EJ
+AW ~~ USE
+AW ~~ TR
+AW ~~ HB
+AW ~~ RK
+AW ~~ CAP
+AW ~~ DEP
+PU ~~ CE
+PU ~~ EJ
+PU ~~ USE
+PU ~~ TR
+PU ~~ HB
+PU ~~ RK
+PU ~~ CAP
+PU ~~ DEP
+CE ~~ EJ
+CE ~~ USE
+CE ~~ TR
+CE ~~ HB
+CE ~~ RK
+CE ~~ CAP
+CE ~~ DEP
+EJ ~~ USE
+EJ ~~ TR
+EJ ~~ HB
+EJ ~~ RK
+EJ ~~ CAP
+EJ ~~ DEP
+USE ~~ TR
+USE ~~ HB
+USE ~~ RK
+USE ~~ CAP
+USE ~~ DEP
+TR ~~ HB
+TR ~~ RK
+TR ~~ CAP
+TR ~~ DEP
+HB ~~ RK
+HB ~~ CAP
+HB ~~ DEP
+RK ~~ CAP
+RK ~~ DEP
+CAP ~~ DEP

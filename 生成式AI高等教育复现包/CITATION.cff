@@ -1,0 +1,64 @@
+cff-version: 1.2.0
+message: "If you use this manuscript source or the accompanying analysis code, please cite it as below."
+title: "Calibrating Generative AI Use for Sustainable Higher Education: Cross-Sectional Evidence on Perceived Capability and Dependence"
+type: software
+authors:
+  - family-names: Zhang
+    given-names: Xinchen
+    orcid: "https://orcid.org/0009-0000-9137-9965"
+    affiliation: "School of Economics, Beijing Technology and Business University, Beijing 102488, China"
+  - family-names: Wang
+    given-names: Yile
+    orcid: "https://orcid.org/0009-0008-3195-5631"
+    affiliation: "School of Economics, Beijing Technology and Business University, Beijing 102488, China"
+  - family-names: Li
+    given-names: Chunbing
+    orcid: "https://orcid.org/0009-0005-8650-1563"
+    affiliation: "School of Economics, Beijing Technology and Business University, Beijing 102488, China"
+contact:
+  - family-names: Li
+    given-names: Chunbing
+    email: licb@th.btbu.edu.cn
+    affiliation: "School of Economics, Beijing Technology and Business University, Beijing 102488, China"
+license: MIT
+repository-code: "https://github.com/KarlHeinrich-jpg/Calibrating-Generative-AI-Use-for-Sustainable-Higher-Education"
+abstract: >-
+  Analysis code and accepted manuscript source for a cross-sectional study of generative
+  artificial intelligence (GenAI) task use among 1,105 respondents (659 students and 446
+  teachers) at five Beijing universities. The study estimates a concave (inverted-U)
+  association between GenAI task use frequency and perceived role-specific capability,
+  shows that AI literacy shifts the location of the model-implied maximum, and finds that
+  AI dependence follows a largely additive path driven by use, habit, and trust rather
+  than by an inverted U. The package contains the scoring rules, the 33 lavaan CFA model
+  specifications, the hierarchical regression, inverted-U test and bootstrap routines, the
+  sensitivity analyses, and the nested cross-validation prediction and held-out TreeSHAP
+  workflow, together with an output manifest linking every exported file to its location
+  in the manuscript. Participant-level responses are not distributed.
+keywords:
+  - generative artificial intelligence
+  - sustainable higher education
+  - SDG 4
+  - AI literacy
+  - perceived learning agency
+  - teaching innovation competence
+  - AI dependence
+  - cognitive offloading
+  - inverted U relationship
+preferred-citation:
+  type: article
+  title: "Calibrating Generative AI Use for Sustainable Higher Education: Cross-Sectional Evidence on Perceived Capability and Dependence"
+  authors:
+    - family-names: Zhang
+      given-names: Xinchen
+      orcid: "https://orcid.org/0009-0000-9137-9965"
+    - family-names: Wang
+      given-names: Yile
+      orcid: "https://orcid.org/0009-0008-3195-5631"
+    - family-names: Li
+      given-names: Chunbing
+      orcid: "https://orcid.org/0009-0005-8650-1563"
+  journal: Sustainability
+  publisher:
+    name: MDPI
+  year: 2026
+  notes: "Manuscript ID sustainability-4495862; accepted for publication on 23 September 2026. DOI to be added upon publication."

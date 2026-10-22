@@ -1,0 +1,11 @@
+AW =~ 1*AIL_AW1 + AIL_AW2 + AIL_AW3
+PU =~ 1*AIL_PU1 + AIL_PU2 + AIL_PU3
+CE =~ 1*AIL_CE1 + AIL_CE2 + AIL_CE3
+EJ =~ 1*AIL_EJ1 + AIL_EJ2 + AIL_EJ3
+G =~ 1*AW + PU + CE + EJ
+AW ~~ 0*PU
+AW ~~ 0*CE
+AW ~~ 0*EJ
+PU ~~ 0*CE
+PU ~~ 0*EJ
+CE ~~ 0*EJ

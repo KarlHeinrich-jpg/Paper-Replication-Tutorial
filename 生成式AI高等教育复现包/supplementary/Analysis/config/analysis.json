@@ -1,0 +1,257 @@
+{
+  "scales": {
+    "literacy": [
+      "AIL_AW1",
+      "AIL_AW2",
+      "AIL_AW3",
+      "AIL_PU1",
+      "AIL_PU2",
+      "AIL_PU3",
+      "AIL_CE1",
+      "AIL_CE2",
+      "AIL_CE3",
+      "AIL_EJ1",
+      "AIL_EJ2",
+      "AIL_EJ3"
+    ],
+    "use": [
+      "USE1",
+      "USE2",
+      "USE3",
+      "USE4",
+      "USE5"
+    ],
+    "trust": [
+      "TR1",
+      "TR2",
+      "TR3"
+    ],
+    "habit": [
+      "HB1",
+      "HB2",
+      "HB3"
+    ],
+    "risk": [
+      "RK1",
+      "RK2",
+      "RK3"
+    ],
+    "capability_student": [
+      "AG1",
+      "AG2",
+      "AG3",
+      "AG4",
+      "AG5",
+      "AG6",
+      "AG7"
+    ],
+    "capability_teacher": [
+      "TI1",
+      "TI2",
+      "TI3",
+      "TI4",
+      "TI5",
+      "TI6"
+    ],
+    "dependence_student": [
+      "DEP_S1",
+      "DEP_S2",
+      "DEP_S3",
+      "DEP_S4",
+      "DEP_S5",
+      "DEP_S6",
+      "DEP_S7",
+      "DEP_S8"
+    ],
+    "dependence_teacher": [
+      "DEP_T1",
+      "DEP_T2",
+      "DEP_T3",
+      "DEP_T4",
+      "DEP_T5"
+    ],
+    "performance_expectancy": [
+      "PE1",
+      "PE2",
+      "PE3"
+    ],
+    "effort_expectancy": [
+      "EE1",
+      "EE2",
+      "EE3"
+    ],
+    "social_influence": [
+      "SI1",
+      "SI2",
+      "SI3"
+    ],
+    "facilitating_conditions": [
+      "FC1",
+      "FC2",
+      "FC3"
+    ],
+    "equity": [
+      "EQ1",
+      "EQ2",
+      "EQ3"
+    ],
+    "lifelong_learning": [
+      "LLL1",
+      "LLL2",
+      "LLL3"
+    ],
+    "literacy_AW": [
+      "AIL_AW1",
+      "AIL_AW2",
+      "AIL_AW3"
+    ],
+    "literacy_PU": [
+      "AIL_PU1",
+      "AIL_PU2",
+      "AIL_PU3"
+    ],
+    "literacy_CE": [
+      "AIL_CE1",
+      "AIL_CE2",
+      "AIL_CE3"
+    ],
+    "literacy_EJ": [
+      "AIL_EJ1",
+      "AIL_EJ2",
+      "AIL_EJ3"
+    ],
+    "support_use": [
+      "USE1",
+      "USE2",
+      "USE3"
+    ],
+    "substitution_use": [
+      "USE4",
+      "USE5"
+    ],
+    "belief_trust": [
+      "TR1",
+      "TR2"
+    ]
+  },
+  "seed": 251101,
+  "bootstrap_B": 5000,
+  "controls": {
+    "student": {
+      "numeric": [
+        "age",
+        "study_year",
+        "ai_tenure",
+        "overall_frequency"
+      ],
+      "categorical": [
+        "gender",
+        "discipline"
+      ]
+    },
+    "teacher": {
+      "numeric": [
+        "teaching_experience",
+        "academic_rank",
+        "ai_tenure",
+        "overall_frequency"
+      ],
+      "categorical": [
+        "gender",
+        "discipline"
+      ]
+    }
+  },
+  "ancillary": [
+    "performance_expectancy",
+    "effort_expectancy",
+    "social_influence",
+    "facilitating_conditions",
+    "equity",
+    "lifelong_learning"
+  ],
+  "categorical_levels": {
+    "gender": [
+      "man",
+      "woman",
+      "another_identity",
+      "prefer_not_to_say"
+    ],
+    "discipline": [
+      "humanities_social_sciences",
+      "business_economics",
+      "STEM",
+      "education",
+      "health",
+      "arts",
+      "other"
+    ]
+  },
+  "analysis_choices": {
+    "frequency_codes": {
+      "1": "Never",
+      "2": "Less than once a month",
+      "3": "One to three times a month",
+      "4": "About once a week",
+      "5": "Several times a week",
+      "6": "About once a day",
+      "7": "Multiple times per day"
+    },
+    "cfa": {
+      "estimator": "ML",
+      "meanstructure": true,
+      "identification": "marker_except_unit_variance_trust_comparisons",
+      "residual_covariances": "zero",
+      "cross_loadings": "zero",
+      "ordinal_treatment": "seven_point_indicators_treated_as_numeric",
+      "rmsea": "lavaan_N_denominator_and_sqrt_number_of_groups"
+    },
+    "study_year_codes": {
+      "1": "first year",
+      "2": "second year",
+      "3": "third year",
+      "4": "fourth year",
+      "5": "fifth year or above"
+    },
+    "academic_rank_codes": {
+      "1": "assistant",
+      "2": "lecturer",
+      "3": "associate professor",
+      "4": "professor"
+    },
+    "ai_tenure_codes": {
+      "0": "Never",
+      "1": "<3 months",
+      "2": "3-6 months",
+      "3": "7-12 months",
+      "4": "13-24 months",
+      "5": ">24 months"
+    },
+    "qualification": "collected_descriptively_not_an_additional_regression_covariate",
+    "continuous_control_centering": [
+      "age",
+      "teaching_experience"
+    ],
+    "complete_inferential_sample": "fail_on_missing_covariates_no_undocumented_row_deletion",
+    "literacy_factor_scores": "isolated_second_order_regression_scores_rescaled_to_observed_literacy_mean_and_sd; all_other_scores_unchanged",
+    "influence_deletion": "union_above_type7_99th_percentiles_of_leverage_or_Cooks_D",
+    "RESET": "fitted_value_powers_2_and_3_HC3_Wald",
+    "ICC": "unconditional_one_way_random_intercept_ANOVA_moments_unequal_group_size",
+    "wild_cluster": {
+      "weights": "Webb_six_point",
+      "B": 7776,
+      "impose_null": true,
+      "residual_transform": "none",
+      "statistic": "CR1_t",
+      "tail": "abs_greater_equal",
+      "tie_tolerance": 1e-12,
+      "finite_sample_exact_test": false
+    },
+    "predictor_set": "expanded_controls_and_focal_predictors_excluding_both_outcomes_and_institution_identifier",
+    "inner_seed": "251101 + outer_fold_1_based",
+    "shap_additivity_tolerance": 2e-05,
+    "shap_additivity_check": "absolute and relative tolerance 2e-5",
+    "pooled_crossrole": "fully_cohort_interacted_block_diagonal_HC3_with_within_cohort_standardisation_of_outcomes_and_design_columns",
+    "BP": "original_normal_theory_Breusch_Pagan_robust_false"
+  }
+}

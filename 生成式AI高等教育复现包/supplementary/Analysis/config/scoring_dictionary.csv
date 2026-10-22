@@ -1,0 +1,71 @@
+item_id,column,construct,cohort,wording_en,reverse,min,max
+AIL-AW1,AIL_AW1,AI literacy--awareness,both,I can recognise common functions for which GenAI systems are used.,False,1,7
+AIL-AW2,AIL_AW2,AI literacy--awareness,both,I understand that GenAI output is generated probabilistically and can be inaccurate.,False,1,7
+AIL-AW3,AIL_AW3,AI literacy--awareness,both,I can identify situations in which GenAI is and is not an appropriate tool.,False,1,7
+AIL-PU1,AIL_PU1,AI literacy--practical use,both,I can formulate prompts that communicate the task and constraints clearly.,False,1,7
+AIL-PU2,AIL_PU2,AI literacy--practical use,both,I can refine my instructions when an initial GenAI response is inadequate.,False,1,7
+AIL-PU3,AIL_PU3,AI literacy--practical use,both,I can integrate useful GenAI output into my own learning/teaching work.,False,1,7
+AIL-CE1,AIL_CE1,AI literacy--critical evaluation,both,I can assess whether a GenAI response is factually and logically sound.,False,1,7
+AIL-CE2,AIL_CE2,AI literacy--critical evaluation,both,I verify important GenAI claims using independent evidence.,False,1,7
+AIL-CE3,AIL_CE3,AI literacy--critical evaluation,both,"I can detect omissions, bias, or unjustified confidence in GenAI output.",False,1,7
+AIL-EJ1,AIL_EJ1,AI literacy--ethical judgement,both,I consider privacy and data-protection risks before using GenAI.,False,1,7
+AIL-EJ2,AIL_EJ2,AI literacy--ethical judgement,both,"I consider authorship, attribution, and academic/professional integrity.",False,1,7
+AIL-EJ3,AIL_EJ3,AI literacy--ethical judgement,both,I retain personal responsibility for decisions informed by GenAI.,False,1,7
+USE1,USE1,GenAI task-use frequency,both,Frequency of using GenAI to obtain explanations or clarify concepts.,False,1,7
+USE2,USE2,GenAI task-use frequency,both,Frequency of using GenAI to generate ideas or initial plans.,False,1,7
+USE3,USE3,GenAI task-use frequency,both,"Frequency of using GenAI to review, revise, or improve existing work.",False,1,7
+USE4,USE4,GenAI task-use frequency,both,Frequency of using GenAI to produce substantial drafts or task outputs.,False,1,7
+USE5,USE5,GenAI task-use frequency,both,Frequency of using GenAI to complete complex tasks that would otherwise require substantial independent work.,False,1,7
+TR1,TR1,Trust in GenAI,both,I expect GenAI to provide generally competent assistance for suitable tasks.,False,1,7
+TR2,TR2,Trust in GenAI,both,I believe GenAI recommendations are dependable when I can verify them.,False,1,7
+TR3,TR3,Trust in GenAI,both,I am willing to rely on GenAI when completing relevant tasks.,False,1,7
+HB1,HB1,Habitual GenAI use,both,Using GenAI has become something I do automatically in relevant situations.,False,1,7
+HB2,HB2,Habitual GenAI use,both,"When a suitable task appears, using GenAI is one of my first reactions.",False,1,7
+HB3,HB3,Habitual GenAI use,both,I use GenAI with little conscious deliberation in familiar task settings.,False,1,7
+RK1,RK1,Perceived GenAI risk,both,GenAI errors could lead me to make poor learning/teaching decisions.,False,1,7
+RK2,RK2,Perceived GenAI risk,both,Relying on GenAI may weaken my ability to evaluate work independently.,False,1,7
+RK3,RK3,Perceived GenAI risk,both,Using GenAI for consequential tasks may create academic/professional problems.,False,1,7
+AG1,AG1,Perceived learning agency,student,I set clear goals for my own learning.,False,1,7
+AG2,AG2,Perceived learning agency,student,I decide how to approach difficult learning tasks.,False,1,7
+AG3,AG3,Perceived learning agency,student,I persist when learning becomes difficult.,False,1,7
+AG4,AG4,Perceived learning agency,student,I monitor whether my current learning strategy is working.,False,1,7
+AG5,AG5,Perceived learning agency,student,I revise my approach when my progress is inadequate.,False,1,7
+AG6,AG6,Perceived learning agency,student,I can explain the reasoning behind my learning decisions.,False,1,7
+AG7,AG7,Perceived learning agency,student,I take responsibility for the quality of my learning outcomes.,False,1,7
+TI1,TI1,Teaching innovation competence,teacher,I can identify teaching problems that require a new instructional approach.,False,1,7
+TI2,TI2,Teaching innovation competence,teacher,I can design learning activities that use digital tools purposefully.,False,1,7
+TI3,TI3,Teaching innovation competence,teacher,I adapt instructional materials to different learner needs.,False,1,7
+TI4,TI4,Teaching innovation competence,teacher,I evaluate whether an instructional innovation improves learning.,False,1,7
+TI5,TI5,Teaching innovation competence,teacher,I can revise AI-supported teaching designs after evidence or feedback.,False,1,7
+TI6,TI6,Teaching innovation competence,teacher,I can integrate GenAI without surrendering professional judgement.,False,1,7
+DEP-S1,DEP_S1,Student AI dependence,student,I find it difficult to begin some learning tasks without GenAI assistance.,False,1,7
+DEP-S2,DEP_S2,Student AI dependence,student,I feel less confident completing familiar academic tasks when GenAI is unavailable.,False,1,7
+DEP-S3,DEP_S3,Student AI dependence,student,I rely on GenAI even when I could complete the task independently.,False,1,7
+DEP-S4,DEP_S4,Student AI dependence,student,I repeatedly check GenAI before finalising my own answer.,False,1,7
+DEP-S5,DEP_S5,Student AI dependence,student,Interrupting access to GenAI would disrupt my usual learning process.,False,1,7
+DEP-S6,DEP_S6,Student AI dependence,student,I prefer GenAI guidance to making an unaided judgement.,False,1,7
+DEP-S7,DEP_S7,Student AI dependence,student,I use GenAI longer or more often than I originally intend.,False,1,7
+DEP-S8,DEP_S8,Student AI dependence,student,I would find it uncomfortable to complete important learning tasks without GenAI.,False,1,7
+DEP-T1,DEP_T1,Teacher AI dependence,teacher,I find it difficult to begin some teaching tasks without GenAI assistance.,False,1,7
+DEP-T2,DEP_T2,Teacher AI dependence,teacher,My usual preparation process would be disrupted if GenAI were unavailable.,False,1,7
+DEP-T3,DEP_T3,Teacher AI dependence,teacher,I rely on GenAI even for tasks I could complete independently.,False,1,7
+DEP-T4,DEP_T4,Teacher AI dependence,teacher,I prefer GenAI suggestions to making an unaided instructional judgement.,False,1,7
+DEP-T5,DEP_T5,Teacher AI dependence,teacher,I would find it uncomfortable to complete important teaching tasks without GenAI.,False,1,7
+PE1,PE1,Performance expectancy,both,Using GenAI improves the quality of my learning/teaching work.,False,1,7
+PE2,PE2,Performance expectancy,both,Using GenAI enables me to complete relevant tasks more efficiently.,False,1,7
+PE3,PE3,Performance expectancy,both,GenAI is useful for accomplishing important learning/teaching tasks.,False,1,7
+EE1,EE1,Effort expectancy,both,Learning to use GenAI for my tasks is easy for me.,False,1,7
+EE2,EE2,Effort expectancy,both,My interaction with GenAI is clear and understandable.,False,1,7
+EE3,EE3,Effort expectancy,both,It is easy for me to become skilful at using GenAI.,False,1,7
+SI1,SI1,Social influence,both,People who are important to me think that I should use GenAI for relevant tasks.,False,1,7
+SI2,SI2,Social influence,both,People whose opinions I value encourage me to use GenAI.,False,1,7
+SI3,SI3,Social influence,both,People in my study/work environment commonly expect GenAI to be used.,False,1,7
+FC1,FC1,Facilitating conditions,both,I have the technical resources needed to use GenAI.,False,1,7
+FC2,FC2,Facilitating conditions,both,I have the knowledge and support needed to use GenAI effectively.,False,1,7
+FC3,FC3,Facilitating conditions,both,GenAI is compatible with the digital systems available for my learning/teaching work.,False,1,7
+EQ1,EQ1,Educational equity,both,GenAI gives people with fewer educational resources better access to support.,False,1,7
+EQ2,EQ2,Educational equity,both,GenAI can reduce differences in access to explanations or professional assistance.,False,1,7
+EQ3,EQ3,Educational equity,both,The benefits of GenAI are accessible across learners/teachers with different backgrounds.,False,1,7
+LLL1,LLL1,Lifelong-learning orientation,both,GenAI encourages me to continue learning beyond immediate task requirements.,False,1,7
+LLL2,LLL2,Lifelong-learning orientation,both,I use GenAI to explore knowledge or skills beyond what is currently required.,False,1,7
+LLL3,LLL3,Lifelong-learning orientation,both,Using GenAI increases my willingness to update my knowledge and methods.,False,1,7

@@ -1,0 +1,8 @@
+code,anchor_en,applies_to,scoring
+1,Never,USE1-USE5 task-use items; overall_frequency control,ordered code entered as its integer value; five-item unweighted mean for the task-use index
+2,Less than once a month,USE1-USE5 task-use items; overall_frequency control,ordered code entered as its integer value; five-item unweighted mean for the task-use index
+3,One to three times a month,USE1-USE5 task-use items; overall_frequency control,ordered code entered as its integer value; five-item unweighted mean for the task-use index
+4,About once a week,USE1-USE5 task-use items; overall_frequency control,ordered code entered as its integer value; five-item unweighted mean for the task-use index
+5,Several times a week,USE1-USE5 task-use items; overall_frequency control,ordered code entered as its integer value; five-item unweighted mean for the task-use index
+6,About once a day,USE1-USE5 task-use items; overall_frequency control,ordered code entered as its integer value; five-item unweighted mean for the task-use index
+7,Multiple times per day,USE1-USE5 task-use items; overall_frequency control,ordered code entered as its integer value; five-item unweighted mean for the task-use index

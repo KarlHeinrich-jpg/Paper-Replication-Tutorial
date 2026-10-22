@@ -1,0 +1,49 @@
+stage,output_path,content,manuscript_location,shareable
+run,run_record.json,"Software versions, Python/R invocation, input-file SHA-256 fingerprint, seeds and arguments of the run",Appendix F (provenance record),yes
+run,audit_report.csv,Result of every consistency check in src/audit_outputs.py,Appendix F; Response letter (verification statements),yes
+scoring,scoring/scored_private.csv,"Participant-level item codes, composite scores and controls (input to all later stages)",Section 3.3 scoring rules,no
+scoring,scoring/item_summaries.csv,"Per-item n, mean, SD, range, missingness and all seven category counts/proportions",Appendix A item summary paragraph; Table A1 wording map,yes
+scoring,scoring/composite_summaries.csv,"Composite n, mean, SD, range and raw coefficient alpha by cohort",Table 8; Table 4 (alpha); Table 3 (ancillary alpha),yes
+scoring,scoring/correlations_long.csv,Pairwise Pearson correlations of the focal composites with exact p values,Table 8; Table A10; Section 4.4 literacy-use correlation,yes
+scoring,scoring/<role>_composite_correlation.csv,Composite correlation matrix by cohort,Table 8,yes
+scoring,scoring/<role>_item_covariance.csv; scoring/<role>_item_correlation.csv,Item covariance and correlation matrices by cohort,Appendix A covariance summaries; HTMT inputs (Table 7),yes
+scoring,scoring/<role>_first_component.json,Eigenvalues of the focal-item correlation matrix and first-component variance fraction,Section 4.1 single-factor (Harman) diagnostic,yes
+measurement,model_specifications/*.lav; model_specifications/model_inventory.json,Exact lavaan syntax and identification/estimation settings of all 33 CFA models,Appendix F model inventory; Section 3.4,yes
+measurement,measurement/model_status.json,Convergence/admissibility status and captured warnings for every CFA model,Appendix F (convergence records),yes
+measurement,measurement/<model_id>/fit_indices.csv; complete_fit.txt,All lavaan fit measures (incl. baseline chi-square) and the full summary output,Table 5 Panels A-D,yes
+measurement,measurement/<model_id>/model_inventory.json,"Indicators, n, sample moments, free-parameter counts and df of the fitted model",Table 5 df; Appendix F,yes
+measurement,measurement/<model_id>/parameter_table.csv; estimates.csv; standardized_loadings.csv; parameter_covariance.csv,"Parameter table, estimates with SEs/CIs, completely standardised solution, parameter covariance",Table A1 loadings; Table 15 latent correlation and CI; Table 6 second-order loadings,yes
+measurement,measurement/<model_id>/sample_covariance*.csv; model_implied_covariance*.csv; latent_covariance*.csv,"Sample, model-implied and latent covariance matrices (per group for invariance models)",Table 15; Section 3.4,yes
+measurement,measurement/<model_id>/reliability.csv; reliability_inputs_<factor>.csv; common_covariance.csv; residual_covariance.csv,"Alpha, total omega, standardised CR, AVE and mean squared loading per factor with the loadings/residuals used",Table 4; Table 6; Table 3 (ancillary); Response 6,yes
+measurement,measurement/<model_id>/higher_order_reliability.csv; second_order_loadings.csv; general_factor_paths.csv,"Hierarchical omega, second-order loadings, mean squared second-order loading and second-order CR",Table 6 (higher-order rows),yes
+measurement,measurement/<role>_trust_085_LRT.csv/.txt; <role>_trust_one_descriptive_contrast.csv,One-constraint LRT against r = .85 and the descriptive collapsed one-factor chi-square contrast,Table 5 Panel C; Table 15,yes
+measurement,measurement/invariance_comparison.csv,Configural/metric/scalar fit with delta CFI and delta RMSEA,Table 5 Panel D; Section 4.1,yes
+measurement,measurement/<model_id>/fit_private.rds; measurement/<role>_literacy_second/factor_scores_private.csv,Fitted lavaan objects and participant-level literacy factor scores,Data-access conditions,no
+inference,inference/<role>/shape_inputs.json,"Cohort centring constants, literacy 25/50/75 percentiles, use percentiles, RCS knots, quantile type, bootstrap seed",Appendix F.1; Table A4; Section 3.5,yes
+inference,inference/<role>/<outcome>/coefficients.csv,"Unstandardised b, HC3 SE, t(n-k) p, CIs, and standardised beta with CIs for every term","Tables 10, A3, A6, A7",yes
+inference,inference/<role>/<outcome>/HC3_covariance.csv; design_summary.csv; model_metadata.json; model_summary.txt,"Full HC3 covariance matrix, design means/SDs, n, rank, df, R2, adjusted R2","Appendix F.1; Table 9 (final R2, adjusted R2)",yes
+inference,inference/<role>/<outcome>/hierarchical_blocks.csv,"Block R2, adjusted R2, increments and HC3 block-test p values",Table 9,yes
+inference,inference/<role>/<outcome>/bootstrap_summary.json; delta_bootstrap.csv; vertex_bootstrap.csv; bootstrap_draw_log.csv,Paired case-bootstrap increments and maxima with draw-level accounting (nonconcave/rank-deficient/out-of-range counts),Table 9 (90% interval); Table 11 (95% maxima intervals); Appendix F.1,yes
+inference,inference/<role>/capability/shape_tests.csv,"Model-implied maxima, boundary slopes with HC3 intervals at Q05/Q95 and at 1/7, inverted-U p values, pooled beyond/near counts",Table 11; Table A5; Section 4.4,yes
+inference,inference/<role>/capability/joint_support.csv,Literacy-stratified use percentiles and cases below/at/above each stratum maximum,Table A4 (stratified block); Section 4.4,yes
+inference,inference/<role>/capability/curve_parameters.csv; curve_covariance.csv; curve_definition.json,"Covariate-averaged intercept, the four focal coefficients and their 5x5 covariance used for plotting",Appendix F.1 equations (A1)-(A2),yes
+inference,inference/<role>/capability/curve_data.csv,Plotted conditional means and pointwise 95% HC3 bands at the three literacy levels,Figures 2 and 3,yes
+inference,inference/<role>/dependence/mean_literacy_slopes.csv; stationary_point.json,Use slopes at mean literacy across 1-7 and the fitted stationary point,Section 4.3 (dependence slopes and vertex 7.50),yes
+inference,inference/<role>/<outcome>/reliable_core/,Same exports for the reliable-core specification,Table 9; Table 14; Table A3,yes
+inference,inference/<role>/decomposition/support_use/; substitution_use/,Capability models with the support-oriented and substitution-proximal use indices,Table 13,yes
+inference,inference/<role>/trust_sensitivity/belief_trust/; None/,Dependence models with the belief-centred trust score and with trust omitted,Table 15; Table A7,yes
+inference,inference/<role>/dimension_models/<AW|PU|CE|EJ>/,Capability models substituting each literacy dimension for the global score,Table 12; Figures 4 and 5,yes
+institution,institution/wild_cluster_results.csv,"Observed CR1 t, tail counts over the 7776 Webb combinations, exact two-sided p, correction factor",Table A9 (wild-cluster rows); Section 4.6,yes
+institution,institution/<role>_<outcome>_<term>_t.npy,All 7776 enumerated bootstrap t statistics per test,Section 3.5 (enumeration record),yes
+supplementary,supplementary/<role>/diagnostics.csv,"Exact-bound percentages, Breusch-Pagan, RESET, RCS Wald, influence and DFBETA summaries",Table A8; Table A4 (RCS Wald),yes
+supplementary,supplementary/<role>/institution_ICC.csv,One-way ANOVA ICC components per outcome,Section 4.6 (ICC range),yes
+supplementary,supplementary/<role>/<outcome>/influence_trimmed/; restricted_cubic_spline/; institution_FE/; leave_one_site_out/site_XX/,"Sensitivity refits with shape summaries (influence deletion, RCS, institution fixed effects, leave-one-institution-out)",Table A4; Table A9; Section 4.4; Section 4.6,yes
+supplementary,supplementary/<role>/<outcome>/literacy_factor_score/; indicator_pruning/,Literacy CFA factor-score sensitivity and lambda<.60 indicator-pruning sensitivity,Table A6; Table A7; Section 3.5,yes
+supplementary,supplementary/<role>/HTMT.csv; HTMT_bootstrap.csv; belief_HTMT.csv; belief_HTMT_bootstrap.csv,HTMT with 95% percentile-bootstrap intervals for every construct pair and the belief-centred trust comparison,Table 7; Table 15,yes
+supplementary,supplementary/cross_role/cross_role_contrasts.csv; cross_role/<outcome>/,Pooled block-diagonal standardised cross-role contrasts with HC3 intervals,Section 4.8 (RQ4),yes
+supplementary,supplementary/<role>/<outcome>/influence_private.csv; supplementary/<role>/site_index_private.csv,Participant-level influence statistics and the institution index,Data-access conditions,no
+prediction,prediction/<role>/pooled_metrics.csv; fold_metrics.csv; best_family_summary.csv,"Pooled out-of-fold R2/RMSE/MAE with the RMSE identity check, fold-level metrics, best family with fold range",Table 16; Table A12; Section 4.7,yes
+prediction,prediction/<role>/best_parameters.json; prediction/<role>/models/<model_id>_inner_search.csv,"Model manifest: selected hyperparameters, seeds, training centres and complete inner-search results per outer fold",Table A11,yes
+prediction,prediction/<role>/global_shap.csv; prediction/<role>/shap_display/profile_<outcome>.csv; beeswarm_summary_<outcome>.csv,Mean absolute held-out SHAP per predictor; binned use/literacy/trust attribution profiles; attribution quantiles,Appendix E,yes
+prediction,prediction/<role>/models/*.joblib; oof_predictions_private.csv; outer_folds_private.csv; heldout_shap_private.csv; shap_display/beeswarm_<outcome>_private.csv,Fitted estimators and participant-level predictions/attributions,Data-access conditions,no
+figures,figures/fig_u_<role>s.pdf; figures/fig_literacy_dimensions_<role>s.pdf,Regenerated manuscript figures,Figures 2-5,yes

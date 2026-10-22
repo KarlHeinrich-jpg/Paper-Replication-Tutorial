@@ -1,0 +1,3 @@
+TR =~ TR1 + TR2 + TR3
+DEP =~ DEP_T1 + DEP_T2 + DEP_T3 + DEP_T4 + DEP_T5
+TR ~~ DEP

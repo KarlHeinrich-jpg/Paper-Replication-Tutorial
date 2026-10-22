@@ -1,0 +1,1191 @@
+[
+  {
+    "model_id": "student_focal_first",
+    "estimator": "ML",
+    "meanstructure": true,
+    "std_lv": false,
+    "group_equal": [],
+    "group": null,
+    "role": "student",
+    "factors": {
+      "AW": [
+        "AIL_AW1",
+        "AIL_AW2",
+        "AIL_AW3"
+      ],
+      "PU": [
+        "AIL_PU1",
+        "AIL_PU2",
+        "AIL_PU3"
+      ],
+      "CE": [
+        "AIL_CE1",
+        "AIL_CE2",
+        "AIL_CE3"
+      ],
+      "EJ": [
+        "AIL_EJ1",
+        "AIL_EJ2",
+        "AIL_EJ3"
+      ],
+      "USE": [
+        "USE1",
+        "USE2",
+        "USE3",
+        "USE4",
+        "USE5"
+      ],
+      "TR": [
+        "TR1",
+        "TR2",
+        "TR3"
+      ],
+      "HB": [
+        "HB1",
+        "HB2",
+        "HB3"
+      ],
+      "RK": [
+        "RK1",
+        "RK2",
+        "RK3"
+      ],
+      "CAP": [
+        "AG1",
+        "AG2",
+        "AG3",
+        "AG4",
+        "AG5",
+        "AG6",
+        "AG7"
+      ],
+      "DEP": [
+        "DEP_S1",
+        "DEP_S2",
+        "DEP_S3",
+        "DEP_S4",
+        "DEP_S5",
+        "DEP_S6",
+        "DEP_S7",
+        "DEP_S8"
+      ]
+    },
+    "auto_cov_lv_x": false,
+    "auto_cov_y": false,
+    "reliability": true,
+    "higher_order": false
+  },
+  {
+    "model_id": "student_focal_second",
+    "estimator": "ML",
+    "meanstructure": true,
+    "std_lv": false,
+    "group_equal": [],
+    "group": null,
+    "role": "student",
+    "factors": {
+      "AW": [
+        "AIL_AW1",
+        "AIL_AW2",
+        "AIL_AW3"
+      ],
+      "PU": [
+        "AIL_PU1",
+        "AIL_PU2",
+        "AIL_PU3"
+      ],
+      "CE": [
+        "AIL_CE1",
+        "AIL_CE2",
+        "AIL_CE3"
+      ],
+      "EJ": [
+        "AIL_EJ1",
+        "AIL_EJ2",
+        "AIL_EJ3"
+      ],
+      "USE": [
+        "USE1",
+        "USE2",
+        "USE3",
+        "USE4",
+        "USE5"
+      ],
+      "TR": [
+        "TR1",
+        "TR2",
+        "TR3"
+      ],
+      "HB": [
+        "HB1",
+        "HB2",
+        "HB3"
+      ],
+      "RK": [
+        "RK1",
+        "RK2",
+        "RK3"
+      ],
+      "CAP": [
+        "AG1",
+        "AG2",
+        "AG3",
+        "AG4",
+        "AG5",
+        "AG6",
+        "AG7"
+      ],
+      "DEP": [
+        "DEP_S1",
+        "DEP_S2",
+        "DEP_S3",
+        "DEP_S4",
+        "DEP_S5",
+        "DEP_S6",
+        "DEP_S7",
+        "DEP_S8"
+      ]
+    },
+    "auto_cov_lv_x": false,
+    "auto_cov_y": false,
+    "reliability": false,
+    "higher_order": true
+  },
+  {
+    "model_id": "student_focal_one",
+    "estimator": "ML",
+    "meanstructure": true,
+    "std_lv": false,
+    "group_equal": [],
+    "group": null,
+    "role": "student",
+    "factors": {
+      "ALL": [
+        "AIL_AW1",
+        "AIL_AW2",
+        "AIL_AW3",
+        "AIL_PU1",
+        "AIL_PU2",
+        "AIL_PU3",
+        "AIL_CE1",
+        "AIL_CE2",
+        "AIL_CE3",
+        "AIL_EJ1",
+        "AIL_EJ2",
+        "AIL_EJ3",
+        "USE1",
+        "USE2",
+        "USE3",
+        "USE4",
+        "USE5",
+        "TR1",
+        "TR2",
+        "TR3",
+        "HB1",
+        "HB2",
+        "HB3",
+        "RK1",
+        "RK2",
+        "RK3",
+        "AG1",
+        "AG2",
+        "AG3",
+        "AG4",
+        "AG5",
+        "AG6",
+        "AG7",
+        "DEP_S1",
+        "DEP_S2",
+        "DEP_S3",
+        "DEP_S4",
+        "DEP_S5",
+        "DEP_S6",
+        "DEP_S7",
+        "DEP_S8"
+      ]
+    },
+    "auto_cov_lv_x": false,
+    "auto_cov_y": false,
+    "reliability": false,
+    "higher_order": false
+  },
+  {
+    "model_id": "student_literacy_one",
+    "estimator": "ML",
+    "meanstructure": true,
+    "std_lv": false,
+    "group_equal": [],
+    "group": null,
+    "role": "student",
+    "factors": {
+      "LIT": [
+        "AIL_AW1",
+        "AIL_AW2",
+        "AIL_AW3",
+        "AIL_PU1",
+        "AIL_PU2",
+        "AIL_PU3",
+        "AIL_CE1",
+        "AIL_CE2",
+        "AIL_CE3",
+        "AIL_EJ1",
+        "AIL_EJ2",
+        "AIL_EJ3"
+      ]
+    },
+    "auto_cov_lv_x": false,
+    "auto_cov_y": false,
+    "reliability": true,
+    "higher_order": false
+  },
+  {
+    "model_id": "student_literacy_four",
+    "estimator": "ML",
+    "meanstructure": true,
+    "std_lv": false,
+    "group_equal": [],
+    "group": null,
+    "role": "student",
+    "factors": {
+      "AW": [
+        "AIL_AW1",
+        "AIL_AW2",
+        "AIL_AW3"
+      ],
+      "PU": [
+        "AIL_PU1",
+        "AIL_PU2",
+        "AIL_PU3"
+      ],
+      "CE": [
+        "AIL_CE1",
+        "AIL_CE2",
+        "AIL_CE3"
+      ],
+      "EJ": [
+        "AIL_EJ1",
+        "AIL_EJ2",
+        "AIL_EJ3"
+      ]
+    },
+    "auto_cov_lv_x": false,
+    "auto_cov_y": false,
+    "reliability": true,
+    "higher_order": false
+  },
+  {
+    "model_id": "student_literacy_second",
+    "estimator": "ML",
+    "meanstructure": true,
+    "std_lv": false,
+    "group_equal": [],
+    "group": null,
+    "role": "student",
+    "factors": {
+      "AW": [
+        "AIL_AW1",
+        "AIL_AW2",
+        "AIL_AW3"
+      ],
+      "PU": [
+        "AIL_PU1",
+        "AIL_PU2",
+        "AIL_PU3"
+      ],
+      "CE": [
+        "AIL_CE1",
+        "AIL_CE2",
+        "AIL_CE3"
+      ],
+      "EJ": [
+        "AIL_EJ1",
+        "AIL_EJ2",
+        "AIL_EJ3"
+      ]
+    },
+    "auto_cov_lv_x": false,
+    "auto_cov_y": false,
+    "reliability": true,
+    "higher_order": true
+  },
+  {
+    "model_id": "student_ancillary_PE",
+    "estimator": "ML",
+    "meanstructure": true,
+    "std_lv": false,
+    "group_equal": [],
+    "group": null,
+    "role": "student",
+    "factors": {
+      "PE": [
+        "PE1",
+        "PE2",
+        "PE3"
+      ]
+    },
+    "auto_cov_lv_x": false,
+    "auto_cov_y": false,
+    "reliability": true,
+    "higher_order": false
+  },
+  {
+    "model_id": "student_ancillary_EE",
+    "estimator": "ML",
+    "meanstructure": true,
+    "std_lv": false,
+    "group_equal": [],
+    "group": null,
+    "role": "student",
+    "factors": {
+      "EE": [
+        "EE1",
+        "EE2",
+        "EE3"
+      ]
+    },
+    "auto_cov_lv_x": false,
+    "auto_cov_y": false,
+    "reliability": true,
+    "higher_order": false
+  },
+  {
+    "model_id": "student_ancillary_SI",
+    "estimator": "ML",
+    "meanstructure": true,
+    "std_lv": false,
+    "group_equal": [],
+    "group": null,
+    "role": "student",
+    "factors": {
+      "SI": [
+        "SI1",
+        "SI2",
+        "SI3"
+      ]
+    },
+    "auto_cov_lv_x": false,
+    "auto_cov_y": false,
+    "reliability": true,
+    "higher_order": false
+  },
+  {
+    "model_id": "student_ancillary_FC",
+    "estimator": "ML",
+    "meanstructure": true,
+    "std_lv": false,
+    "group_equal": [],
+    "group": null,
+    "role": "student",
+    "factors": {
+      "FC": [
+        "FC1",
+        "FC2",
+        "FC3"
+      ]
+    },
+    "auto_cov_lv_x": false,
+    "auto_cov_y": false,
+    "reliability": true,
+    "higher_order": false
+  },
+  {
+    "model_id": "student_ancillary_EQ",
+    "estimator": "ML",
+    "meanstructure": true,
+    "std_lv": false,
+    "group_equal": [],
+    "group": null,
+    "role": "student",
+    "factors": {
+      "EQ": [
+        "EQ1",
+        "EQ2",
+        "EQ3"
+      ]
+    },
+    "auto_cov_lv_x": false,
+    "auto_cov_y": false,
+    "reliability": true,
+    "higher_order": false
+  },
+  {
+    "model_id": "student_ancillary_LLL",
+    "estimator": "ML",
+    "meanstructure": true,
+    "std_lv": false,
+    "group_equal": [],
+    "group": null,
+    "role": "student",
+    "factors": {
+      "LLL": [
+        "LLL1",
+        "LLL2",
+        "LLL3"
+      ]
+    },
+    "auto_cov_lv_x": false,
+    "auto_cov_y": false,
+    "reliability": true,
+    "higher_order": false
+  },
+  {
+    "model_id": "student_trust_free",
+    "estimator": "ML",
+    "meanstructure": true,
+    "std_lv": true,
+    "group_equal": [],
+    "group": null,
+    "role": "student",
+    "factors": {
+      "TR": [
+        "TR1",
+        "TR2",
+        "TR3"
+      ],
+      "DEP": [
+        "DEP_S1",
+        "DEP_S2",
+        "DEP_S3",
+        "DEP_S4",
+        "DEP_S5",
+        "DEP_S6",
+        "DEP_S7",
+        "DEP_S8"
+      ]
+    },
+    "auto_cov_lv_x": false,
+    "auto_cov_y": false,
+    "reliability": false,
+    "higher_order": false
+  },
+  {
+    "model_id": "student_trust_085",
+    "estimator": "ML",
+    "meanstructure": true,
+    "std_lv": true,
+    "group_equal": [],
+    "group": null,
+    "role": "student",
+    "factors": {
+      "TR": [
+        "TR1",
+        "TR2",
+        "TR3"
+      ],
+      "DEP": [
+        "DEP_S1",
+        "DEP_S2",
+        "DEP_S3",
+        "DEP_S4",
+        "DEP_S5",
+        "DEP_S6",
+        "DEP_S7",
+        "DEP_S8"
+      ]
+    },
+    "auto_cov_lv_x": false,
+    "auto_cov_y": false,
+    "reliability": false,
+    "higher_order": false
+  },
+  {
+    "model_id": "student_trust_one",
+    "estimator": "ML",
+    "meanstructure": true,
+    "std_lv": true,
+    "group_equal": [],
+    "group": null,
+    "role": "student",
+    "factors": {
+      "RELIANCE": [
+        "TR1",
+        "TR2",
+        "TR3",
+        "DEP_S1",
+        "DEP_S2",
+        "DEP_S3",
+        "DEP_S4",
+        "DEP_S5",
+        "DEP_S6",
+        "DEP_S7",
+        "DEP_S8"
+      ]
+    },
+    "auto_cov_lv_x": false,
+    "auto_cov_y": false,
+    "reliability": false,
+    "higher_order": false
+  },
+  {
+    "model_id": "teacher_focal_first",
+    "estimator": "ML",
+    "meanstructure": true,
+    "std_lv": false,
+    "group_equal": [],
+    "group": null,
+    "role": "teacher",
+    "factors": {
+      "AW": [
+        "AIL_AW1",
+        "AIL_AW2",
+        "AIL_AW3"
+      ],
+      "PU": [
+        "AIL_PU1",
+        "AIL_PU2",
+        "AIL_PU3"
+      ],
+      "CE": [
+        "AIL_CE1",
+        "AIL_CE2",
+        "AIL_CE3"
+      ],
+      "EJ": [
+        "AIL_EJ1",
+        "AIL_EJ2",
+        "AIL_EJ3"
+      ],
+      "USE": [
+        "USE1",
+        "USE2",
+        "USE3",
+        "USE4",
+        "USE5"
+      ],
+      "TR": [
+        "TR1",
+        "TR2",
+        "TR3"
+      ],
+      "HB": [
+        "HB1",
+        "HB2",
+        "HB3"
+      ],
+      "RK": [
+        "RK1",
+        "RK2",
+        "RK3"
+      ],
+      "CAP": [
+        "TI1",
+        "TI2",
+        "TI3",
+        "TI4",
+        "TI5",
+        "TI6"
+      ],
+      "DEP": [
+        "DEP_T1",
+        "DEP_T2",
+        "DEP_T3",
+        "DEP_T4",
+        "DEP_T5"
+      ]
+    },
+    "auto_cov_lv_x": false,
+    "auto_cov_y": false,
+    "reliability": true,
+    "higher_order": false
+  },
+  {
+    "model_id": "teacher_focal_second",
+    "estimator": "ML",
+    "meanstructure": true,
+    "std_lv": false,
+    "group_equal": [],
+    "group": null,
+    "role": "teacher",
+    "factors": {
+      "AW": [
+        "AIL_AW1",
+        "AIL_AW2",
+        "AIL_AW3"
+      ],
+      "PU": [
+        "AIL_PU1",
+        "AIL_PU2",
+        "AIL_PU3"
+      ],
+      "CE": [
+        "AIL_CE1",
+        "AIL_CE2",
+        "AIL_CE3"
+      ],
+      "EJ": [
+        "AIL_EJ1",
+        "AIL_EJ2",
+        "AIL_EJ3"
+      ],
+      "USE": [
+        "USE1",
+        "USE2",
+        "USE3",
+        "USE4",
+        "USE5"
+      ],
+      "TR": [
+        "TR1",
+        "TR2",
+        "TR3"
+      ],
+      "HB": [
+        "HB1",
+        "HB2",
+        "HB3"
+      ],
+      "RK": [
+        "RK1",
+        "RK2",
+        "RK3"
+      ],
+      "CAP": [
+        "TI1",
+        "TI2",
+        "TI3",
+        "TI4",
+        "TI5",
+        "TI6"
+      ],
+      "DEP": [
+        "DEP_T1",
+        "DEP_T2",
+        "DEP_T3",
+        "DEP_T4",
+        "DEP_T5"
+      ]
+    },
+    "auto_cov_lv_x": false,
+    "auto_cov_y": false,
+    "reliability": false,
+    "higher_order": true
+  },
+  {
+    "model_id": "teacher_focal_one",
+    "estimator": "ML",
+    "meanstructure": true,
+    "std_lv": false,
+    "group_equal": [],
+    "group": null,
+    "role": "teacher",
+    "factors": {
+      "ALL": [
+        "AIL_AW1",
+        "AIL_AW2",
+        "AIL_AW3",
+        "AIL_PU1",
+        "AIL_PU2",
+        "AIL_PU3",
+        "AIL_CE1",
+        "AIL_CE2",
+        "AIL_CE3",
+        "AIL_EJ1",
+        "AIL_EJ2",
+        "AIL_EJ3",
+        "USE1",
+        "USE2",
+        "USE3",
+        "USE4",
+        "USE5",
+        "TR1",
+        "TR2",
+        "TR3",
+        "HB1",
+        "HB2",
+        "HB3",
+        "RK1",
+        "RK2",
+        "RK3",
+        "TI1",
+        "TI2",
+        "TI3",
+        "TI4",
+        "TI5",
+        "TI6",
+        "DEP_T1",
+        "DEP_T2",
+        "DEP_T3",
+        "DEP_T4",
+        "DEP_T5"
+      ]
+    },
+    "auto_cov_lv_x": false,
+    "auto_cov_y": false,
+    "reliability": false,
+    "higher_order": false
+  },
+  {
+    "model_id": "teacher_literacy_one",
+    "estimator": "ML",
+    "meanstructure": true,
+    "std_lv": false,
+    "group_equal": [],
+    "group": null,
+    "role": "teacher",
+    "factors": {
+      "LIT": [
+        "AIL_AW1",
+        "AIL_AW2",
+        "AIL_AW3",
+        "AIL_PU1",
+        "AIL_PU2",
+        "AIL_PU3",
+        "AIL_CE1",
+        "AIL_CE2",
+        "AIL_CE3",
+        "AIL_EJ1",
+        "AIL_EJ2",
+        "AIL_EJ3"
+      ]
+    },
+    "auto_cov_lv_x": false,
+    "auto_cov_y": false,
+    "reliability": true,
+    "higher_order": false
+  },
+  {
+    "model_id": "teacher_literacy_four",
+    "estimator": "ML",
+    "meanstructure": true,
+    "std_lv": false,
+    "group_equal": [],
+    "group": null,
+    "role": "teacher",
+    "factors": {
+      "AW": [
+        "AIL_AW1",
+        "AIL_AW2",
+        "AIL_AW3"
+      ],
+      "PU": [
+        "AIL_PU1",
+        "AIL_PU2",
+        "AIL_PU3"
+      ],
+      "CE": [
+        "AIL_CE1",
+        "AIL_CE2",
+        "AIL_CE3"
+      ],
+      "EJ": [
+        "AIL_EJ1",
+        "AIL_EJ2",
+        "AIL_EJ3"
+      ]
+    },
+    "auto_cov_lv_x": false,
+    "auto_cov_y": false,
+    "reliability": true,
+    "higher_order": false
+  },
+  {
+    "model_id": "teacher_literacy_second",
+    "estimator": "ML",
+    "meanstructure": true,
+    "std_lv": false,
+    "group_equal": [],
+    "group": null,
+    "role": "teacher",
+    "factors": {
+      "AW": [
+        "AIL_AW1",
+        "AIL_AW2",
+        "AIL_AW3"
+      ],
+      "PU": [
+        "AIL_PU1",
+        "AIL_PU2",
+        "AIL_PU3"
+      ],
+      "CE": [
+        "AIL_CE1",
+        "AIL_CE2",
+        "AIL_CE3"
+      ],
+      "EJ": [
+        "AIL_EJ1",
+        "AIL_EJ2",
+        "AIL_EJ3"
+      ]
+    },
+    "auto_cov_lv_x": false,
+    "auto_cov_y": false,
+    "reliability": true,
+    "higher_order": true
+  },
+  {
+    "model_id": "teacher_ancillary_PE",
+    "estimator": "ML",
+    "meanstructure": true,
+    "std_lv": false,
+    "group_equal": [],
+    "group": null,
+    "role": "teacher",
+    "factors": {
+      "PE": [
+        "PE1",
+        "PE2",
+        "PE3"
+      ]
+    },
+    "auto_cov_lv_x": false,
+    "auto_cov_y": false,
+    "reliability": true,
+    "higher_order": false
+  },
+  {
+    "model_id": "teacher_ancillary_EE",
+    "estimator": "ML",
+    "meanstructure": true,
+    "std_lv": false,
+    "group_equal": [],
+    "group": null,
+    "role": "teacher",
+    "factors": {
+      "EE": [
+        "EE1",
+        "EE2",
+        "EE3"
+      ]
+    },
+    "auto_cov_lv_x": false,
+    "auto_cov_y": false,
+    "reliability": true,
+    "higher_order": false
+  },
+  {
+    "model_id": "teacher_ancillary_SI",
+    "estimator": "ML",
+    "meanstructure": true,
+    "std_lv": false,
+    "group_equal": [],
+    "group": null,
+    "role": "teacher",
+    "factors": {
+      "SI": [
+        "SI1",
+        "SI2",
+        "SI3"
+      ]
+    },
+    "auto_cov_lv_x": false,
+    "auto_cov_y": false,
+    "reliability": true,
+    "higher_order": false
+  },
+  {
+    "model_id": "teacher_ancillary_FC",
+    "estimator": "ML",
+    "meanstructure": true,
+    "std_lv": false,
+    "group_equal": [],
+    "group": null,
+    "role": "teacher",
+    "factors": {
+      "FC": [
+        "FC1",
+        "FC2",
+        "FC3"
+      ]
+    },
+    "auto_cov_lv_x": false,
+    "auto_cov_y": false,
+    "reliability": true,
+    "higher_order": false
+  },
+  {
+    "model_id": "teacher_ancillary_EQ",
+    "estimator": "ML",
+    "meanstructure": true,
+    "std_lv": false,
+    "group_equal": [],
+    "group": null,
+    "role": "teacher",
+    "factors": {
+      "EQ": [
+        "EQ1",
+        "EQ2",
+        "EQ3"
+      ]
+    },
+    "auto_cov_lv_x": false,
+    "auto_cov_y": false,
+    "reliability": true,
+    "higher_order": false
+  },
+  {
+    "model_id": "teacher_ancillary_LLL",
+    "estimator": "ML",
+    "meanstructure": true,
+    "std_lv": false,
+    "group_equal": [],
+    "group": null,
+    "role": "teacher",
+    "factors": {
+      "LLL": [
+        "LLL1",
+        "LLL2",
+        "LLL3"
+      ]
+    },
+    "auto_cov_lv_x": false,
+    "auto_cov_y": false,
+    "reliability": true,
+    "higher_order": false
+  },
+  {
+    "model_id": "teacher_trust_free",
+    "estimator": "ML",
+    "meanstructure": true,
+    "std_lv": true,
+    "group_equal": [],
+    "group": null,
+    "role": "teacher",
+    "factors": {
+      "TR": [
+        "TR1",
+        "TR2",
+        "TR3"
+      ],
+      "DEP": [
+        "DEP_T1",
+        "DEP_T2",
+        "DEP_T3",
+        "DEP_T4",
+        "DEP_T5"
+      ]
+    },
+    "auto_cov_lv_x": false,
+    "auto_cov_y": false,
+    "reliability": false,
+    "higher_order": false
+  },
+  {
+    "model_id": "teacher_trust_085",
+    "estimator": "ML",
+    "meanstructure": true,
+    "std_lv": true,
+    "group_equal": [],
+    "group": null,
+    "role": "teacher",
+    "factors": {
+      "TR": [
+        "TR1",
+        "TR2",
+        "TR3"
+      ],
+      "DEP": [
+        "DEP_T1",
+        "DEP_T2",
+        "DEP_T3",
+        "DEP_T4",
+        "DEP_T5"
+      ]
+    },
+    "auto_cov_lv_x": false,
+    "auto_cov_y": false,
+    "reliability": false,
+    "higher_order": false
+  },
+  {
+    "model_id": "teacher_trust_one",
+    "estimator": "ML",
+    "meanstructure": true,
+    "std_lv": true,
+    "group_equal": [],
+    "group": null,
+    "role": "teacher",
+    "factors": {
+      "RELIANCE": [
+        "TR1",
+        "TR2",
+        "TR3",
+        "DEP_T1",
+        "DEP_T2",
+        "DEP_T3",
+        "DEP_T4",
+        "DEP_T5"
+      ]
+    },
+    "auto_cov_lv_x": false,
+    "auto_cov_y": false,
+    "reliability": false,
+    "higher_order": false
+  },
+  {
+    "model_id": "invariance_configural",
+    "estimator": "ML",
+    "meanstructure": true,
+    "std_lv": false,
+    "group_equal": [],
+    "group": "cohort",
+    "role": null,
+    "factors": {
+      "AW": [
+        "AIL_AW1",
+        "AIL_AW2",
+        "AIL_AW3"
+      ],
+      "PU": [
+        "AIL_PU1",
+        "AIL_PU2",
+        "AIL_PU3"
+      ],
+      "CE": [
+        "AIL_CE1",
+        "AIL_CE2",
+        "AIL_CE3"
+      ],
+      "EJ": [
+        "AIL_EJ1",
+        "AIL_EJ2",
+        "AIL_EJ3"
+      ],
+      "USE": [
+        "USE1",
+        "USE2",
+        "USE3",
+        "USE4",
+        "USE5"
+      ],
+      "TR": [
+        "TR1",
+        "TR2",
+        "TR3"
+      ],
+      "HB": [
+        "HB1",
+        "HB2",
+        "HB3"
+      ],
+      "RK": [
+        "RK1",
+        "RK2",
+        "RK3"
+      ]
+    },
+    "auto_cov_lv_x": false,
+    "auto_cov_y": false,
+    "reliability": false,
+    "higher_order": false
+  },
+  {
+    "model_id": "invariance_metric",
+    "estimator": "ML",
+    "meanstructure": true,
+    "std_lv": false,
+    "group_equal": [
+      "loadings"
+    ],
+    "group": "cohort",
+    "role": null,
+    "factors": {
+      "AW": [
+        "AIL_AW1",
+        "AIL_AW2",
+        "AIL_AW3"
+      ],
+      "PU": [
+        "AIL_PU1",
+        "AIL_PU2",
+        "AIL_PU3"
+      ],
+      "CE": [
+        "AIL_CE1",
+        "AIL_CE2",
+        "AIL_CE3"
+      ],
+      "EJ": [
+        "AIL_EJ1",
+        "AIL_EJ2",
+        "AIL_EJ3"
+      ],
+      "USE": [
+        "USE1",
+        "USE2",
+        "USE3",
+        "USE4",
+        "USE5"
+      ],
+      "TR": [
+        "TR1",
+        "TR2",
+        "TR3"
+      ],
+      "HB": [
+        "HB1",
+        "HB2",
+        "HB3"
+      ],
+      "RK": [
+        "RK1",
+        "RK2",
+        "RK3"
+      ]
+    },
+    "auto_cov_lv_x": false,
+    "auto_cov_y": false,
+    "reliability": false,
+    "higher_order": false
+  },
+  {
+    "model_id": "invariance_scalar",
+    "estimator": "ML",
+    "meanstructure": true,
+    "std_lv": false,
+    "group_equal": [
+      "loadings",
+      "intercepts"
+    ],
+    "group": "cohort",
+    "role": null,
+    "factors": {
+      "AW": [
+        "AIL_AW1",
+        "AIL_AW2",
+        "AIL_AW3"
+      ],
+      "PU": [
+        "AIL_PU1",
+        "AIL_PU2",
+        "AIL_PU3"
+      ],
+      "CE": [
+        "AIL_CE1",
+        "AIL_CE2",
+        "AIL_CE3"
+      ],
+      "EJ": [
+        "AIL_EJ1",
+        "AIL_EJ2",
+        "AIL_EJ3"
+      ],
+      "USE": [
+        "USE1",
+        "USE2",
+        "USE3",
+        "USE4",
+        "USE5"
+      ],
+      "TR": [
+        "TR1",
+        "TR2",
+        "TR3"
+      ],
+      "HB": [
+        "HB1",
+        "HB2",
+        "HB3"
+      ],
+      "RK": [
+        "RK1",
+        "RK2",
+        "RK3"
+      ]
+    },
+    "auto_cov_lv_x": false,
+    "auto_cov_y": false,
+    "reliability": false,
+    "higher_order": false
+  }
+]
